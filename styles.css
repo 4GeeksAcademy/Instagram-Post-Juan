@@ -1,0 +1,93 @@
+
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background:#423838;
+  color:#262626;
+  display:flex;
+  justify-content:center;
+  padding:24px 13px;
+}
+
+
+.post{
+  width:100%;
+  max-width:480px;
+  background:#fff;
+  border:1px solid #dbdbdb;
+  border-radius:6px;
+  overflow:hidden;
+}
+
+
+.post-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 12px;
+}
+
+.iconhtml{ 
+  display:flex; 
+  align-items:center; 
+  gap:10px;
+}
+.badge{
+  width:34px; 
+  height:34px; 
+  display:grid; 
+  place-items:center;
+  background:#f3f3f3; 
+  color:#e44d26; 
+  border:1px solid #eaeaea; 
+  border-radius:4px;
+}
+.names{
+  display:flex; 
+  flex-direction:column; 
+  line-height:1.1;
+}
+
+.names span{ 
+  font-size:.86rem; 
+  color:#777; 
+}
+
+
+.post-img img{ 
+  width:100%; 
+  display:block; 
+}
+
+
+.post-icons{
+  display:flex;
+  align-items:center;
+  justify-content:space-between; 
+  border-top:1px solid #f0f0f0;
+  padding: 10px 12px
+}
+.post-icons .left{ 
+  display:flex; 
+  gap: 10px; 
+}
+.post-icons i{ 
+  font-size:25px; 
+  cursor:pointer; 
+}
+.post-icons i:hover{ 
+  color:#530ff1; 
+}
+
+
+.post-body{ 
+  padding:0 12px 12px; 
+}
+.likes{ 
+  margin:4px 0 8px; 
+  font-size:.95rem; 
+}
+.post-body p{ 
+  margin:0 0 8px; 
+  font-size:.95rem; 
+}
